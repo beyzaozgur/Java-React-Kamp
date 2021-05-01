@@ -7,10 +7,10 @@ public class Main {
 		
 		Course course1 = new Course(1, "Yazilim Gelistirici Yetistirme Kampi (JAVA + REACT)", "Engin Demirog", "21.04.2021", "16 days", 0);
 		Course course2 = new Course(2, "Yazilim Gelistirici Yetistirme Kampi (C# + ANGULAR)", "Engin Demirog", "09.01.2021", "16 days", 0);
-		Course course3 = new Course(3, "Programlamaya Giris Ýcin Temel Kurs", "Engin Demirog", "yok", "yok", 0);
+		Course course3 = new Course(3, "Programlamaya Giris Icin Temel Kurs", "Engin Demirog", "yok", "yok", 0);
 				
 				
-		Student student1 = new Student("Beyza", "Ozgur", "beyzaozgur35@gmail.com");
+		Student student1 = new Student("Beyza", "Ozgur", "abc35@gmail.com");
 		
 		
 		Registration.registerToCourse(student1, course1);
